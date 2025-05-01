@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Antonio Jose L. Macara | Virtual Assistant</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background: #f9f9f9; color: #333; }
+    header, section { margin-bottom: 30px; }
+    h1, h2 { color: #0e3a5e; }
+    .container { max-width: 900px; margin: auto; background: #fff; padding: 30px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+    .thumbnail { max-width: 200px; cursor: pointer; transition: 0.3s; margin-right: 20px; }
+    .thumbnail:hover { opacity: 0.7; }
+    .thumbnails { display: flex; gap: 20px; flex-wrap: wrap; }
+    a { color: #0077cc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .certs img { max-width: 100%; height: auto; }
+  </style>
+  <script>
+    function enlarge(src) {
+      const newWindow = window.open("", "_blank");
+      newWindow.document.write(`<img src="${src}" style="width:100%">`);
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Antonio Jose L. Macara</h1>
+      <p><strong>Virtual Assistant</strong><br>
+      Marikina City, Philippines<br>
+      <a href="mailto:antoniodmc4@gmail.com">antoniodmc4@gmail.com</a><br>
+      <a href="https://www.linkedin.com/in/antonio-jose-macara-831277230/">LinkedIn Profile</a></p>
+    </header>
+
+    <section>
+      <h2>Professional Summary</h2>
+      <p>Detail-oriented Virtual Assistant with hands-on experience in game testing, content creation,
+         cold calling, and lead generation. Creative, adaptable, and skilled in communication.
+         Ready to support fast-paced digital teams.</p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Technical:</strong> UE4/UE5, CapCut, Slack, Asana, GSheets, Figma, ChatGPT</li>
+        <li><strong>Soft:</strong> Resilience, Adaptability, Communication, Teamwork</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>KOMPETE</strong> - Game Tester: Identified bugs using UE4/UE5 and collaborated with devs</li>
+        <li><strong>KOMPETE NFTs</strong> - Virtual Assistant: Created NFT concepts using ChatGPT and Figma</li>
+        <li><strong>KOMPETE SHORTS</strong> - Video Editor: Edited promotional content with CapCut</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Work Experience</h2>
+      <ul>
+        <li><strong>Modernize Games</strong> - Game Tester (Jan 2023 - Mar 2025)</li>
+        <li><strong>Middle America Homes</strong> - Cold Caller (Jul - Nov 2022)</li>
+        <li><strong>Sphere Rocket</strong> - Lead Generation (May - Jun 2022)</li>
+        <li><strong>OSRS Gig</strong> - Grinding for PvP (Mar - Apr 2025)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <p><strong>The Oxford School, Dubai</strong><br>High School Graduate, 2010</p>
+    </section>
+
+    <section class="certs">
+      <h2>Certifications</h2>
+      <div class="thumbnails">
+        <img src="SMM Cert..jpg" alt="SMM Certificate" class="thumbnail" onclick="enlarge(this.src)" />
+        <img src="FB_IMG_1670202074613.jpg" alt="E-commerce Certificate" class="thumbnail" onclick="enlarge(this.src)" />
+      </div>
+    </section>
+
+    <section>
+      <h2>Download Resume</h2>
+      <ul>
+        <li><a href="Antonio_Macara_Resume_1page.pdf" download>1-Page Resume (PDF)</a></li>
+        <li><a href="Antonio_Macara_Portfolio_2page.pdf" download>2-Page Portfolio (PDF)</a></li>
+      </ul>
+    </section>
+  </div>
+</body>
+</html>
